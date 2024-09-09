@@ -12,9 +12,9 @@ class Farm{
         System.out.println("Area="+(len*bre));
     }
 }
-class FarmExe
+public class FarmExe
 {
-    public static void main(String[] args);
+    public static void main(String[] args)
     {
         Farm f=new Farm(10,20);
         f.area();
@@ -22,4 +22,3 @@ class FarmExe
 }
 
     
-
