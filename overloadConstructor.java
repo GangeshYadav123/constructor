@@ -1,7 +1,4 @@
 
-import javax.swing.plaf.metal.MetalBorders;
-import javax.swing.plaf.metal.MetalIconFactory;
-
 class Farm{
     int len;
     int bre;
@@ -27,8 +24,12 @@ class Farm{
     void area()
     {
         System.out.println("Area"+(len*bre));
-        class FarmExe
+    }
+}
+       public class FarmExe
         {
+            public static void main(String[] args) 
+            {
             Farm f1=new Farm();
             System.out.println("the area of f1 object");
             f1.area();
@@ -36,9 +37,11 @@ class Farm{
             System.out.println("the area of f2 obj");
             f2 .area();
             Farm f3=new Farm(40);
-            System.out.prinln("the area of f3 obj");
+            System.out.println("the area of f3 obj");
             f3.area();
-            
+            }
         }
-    }
-}
+    
+            
+        
+    
